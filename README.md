@@ -27,4 +27,37 @@ Y en cualquier navegador digitar " http://localhost:8080/ "
 
 ## Despliegue 📦
 
+ Home
 ![Home](https://user-images.githubusercontent.com/71616837/114416775-a1ec5b80-9b76-11eb-8b6f-715e90223d53.PNG)
+
+ Editar
+ 
+ ![EditarTicket](https://user-images.githubusercontent.com/71616837/114416774-a1ec5b80-9b76-11eb-805e-4b1d9e1bbd93.PNG)
+ 
+ Buscar Por numero de Ticket
+ 
+ ![BuscarTicket](https://user-images.githubusercontent.com/71616837/114416773-a153c500-9b76-11eb-82d1-787f09db9af8.PNG)
+ 
+ Agregar Nuevo Ticket
+ 
+ ![Agregar_Ticket](https://user-images.githubusercontent.com/71616837/114416771-a153c500-9b76-11eb-9f4e-de1452bacb6b.PNG)
+ 
+ Visualizar ticket
+ 
+ ![Visualizar_Ticket](https://user-images.githubusercontent.com/71616837/114416777-a284f200-9b76-11eb-815f-56c9d5bc1bcc.PNG)
+
+ ## Construido con 🛠️
+
+*[Golang](https://golang.org/)
+*[MySQL](https://www.mysql.com/)
+ 
+ 
+ ## Autor ✒️
+ 
+ Erick Yoan Ahumada
+ 
+ ## Referencia 📖
+ 
+ He Aprendido un poco de Golang haciendo uso del siguiente Tutorial
+ [Tutorial](https://www.youtube.com/watch?v=G58gN0lIbyI&t=1586s)
+ 
