@@ -4,6 +4,11 @@ Proyecto CRUD con Golang y MySQL
 ## Comenzando 🚀
 Para ejecutar el proyecto es necesario crear una base de datos en SQL (el nombre de la bd debe ser tickets) con los siguientes atributos
 
+el usuario y la contraseña que se deben configurar en la creacion de la bd son
+
+usuario : root
+contraseña: admin
+
 ```
 CREATE TABLE `tickets` (
   `id` int NOT NULL AUTO_INCREMENT,
