@@ -1,0 +1,36 @@
+{{define "inicio"}}
+{{template "cabecera"}}
+      <a name="" id="" class="btn btn-primary" href="/crear" role="button">Agregar ticket</a>
+      <br/><br/>
+      <table class="table">
+        <thead>
+            <tr>
+                <th>id</th>
+                <th>Usuario</th>
+                <th>Fecha de Creación</th>
+                <th>Fecha de Actualización</th>
+                <th>Numero de ticket</th>
+                <th>Descripcion</th>
+            </tr>
+        </thead>
+        <tbody>
+    {{range.}}    
+            <tr>
+                <td>{{.Id}}</td>
+                <td>{{.Usuario}}</td>
+                <td>{{.FechaCreacion}}</td>
+                <th>{{.FechaActualizacion}}</th>
+                <th>{{.NumTicket}}</th>
+                <th>{{.Descripcion}}</th>
+                <td>
+                <a name="" id="" class="btn btn-primary" href="/show?id={{.Id}}" role="button">Ver</a>
+                <a name="" id="" class="btn btn-secondary" href="/editar?id={{.Id}}" role="button">Editar</a>
+                <a name="" id="" class="btn btn-danger" href="/borrar?id={{.Id}}" role="button">Borrar</a>               
+                </td>
+            </tr>
+    {{end}}        
+        </tbody>
+      </table>  
+    
+{{template "pie"}}  
+{{end}}

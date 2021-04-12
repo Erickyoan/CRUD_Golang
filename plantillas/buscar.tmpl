@@ -1,0 +1,29 @@
+{{define "buscar"}}
+{{ template "cabecera"}}
+
+<div class="card">
+
+    <div class="card-header">
+        Ticket
+    </div>
+
+    <div class="card-body">
+        <form method ="post" action="/consulta">
+
+        <div class="form-group">
+          <label for=""> Usuario: </label>
+          <input type="text"
+            class="form-control" name="Usuario" id="Usuario" aria-describedby="helpId" placeholder="">
+          <small id="helpId" class="form-text text-muted">Help text</small>
+        </div>
+        
+        
+        <button type="submit" class="btn btn-primary">Buscar Ticket</button>
+        <a name="" id="" class="btn btn-danger" href="/" role="button">Cancelar</a>
+    </div>
+    
+</div>
+
+
+{{template "pie"}}
+{{end}}

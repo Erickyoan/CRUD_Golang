@@ -1,0 +1,41 @@
+{{define "crear"}}
+{{ template "cabecera"}}
+
+<div class="card">
+
+    <div class="card-header">
+        Ticket
+    </div>
+
+    <div class="card-body">
+        <form method ="post" action="/insertar">
+
+        <div class="form-group">
+          <label for=""> Usuario: </label>
+          <input type="text"
+            class="form-control" name="Usuario" id="Usuario" aria-describedby="helpId" placeholder="">
+          <small id="helpId" class="form-text text-muted">Help text</small>
+        </div>
+        
+        <div class="form-group">
+          <label for="">Fecha</label>
+          <input type="date" name="Fecha" id="Fecha" class="form-control" placeholder="" aria-describedby="helpId">
+          <small id="helpId" class="text-muted">dd/mm/aaaa</small>
+        </div>
+
+
+        <div class="form-group">
+          <label for=""> Descripcion:</label>
+          <textarea class="form-control" name="Descripcion" id="Descripcion" rows="4"></textarea>
+        </div>
+
+        
+        <button type="submit" class="btn btn-primary">Agregar Ticket</button>
+        <a name="" id="" class="btn btn-danger" href="/" role="button">Cancelar</a>
+    </div>
+    
+</div>
+
+
+{{template "pie"}}
+{{end}}
